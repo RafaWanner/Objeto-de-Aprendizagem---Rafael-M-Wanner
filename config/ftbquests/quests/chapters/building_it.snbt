@@ -145,7 +145,7 @@
 			id: "3B1FA08818423210"
 			rewards: [
 				{
-					count: 32
+					count: 33
 					id: "42E60180885247A6"
 					item: "mekanism:thermal_evaporation_block"
 					type: "item"

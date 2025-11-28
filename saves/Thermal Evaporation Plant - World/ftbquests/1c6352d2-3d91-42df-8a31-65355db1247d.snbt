@@ -1,0 +1,18 @@
+{
+	version: 1
+	uuid: "1c6352d23d9142df8a3165355db1247d"
+	name: "Viciado_em_Xbox#1c6352d2"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: {
+		23BFE9C4343380AB: 1764266718142L
+		3B98D34AC5E8AA4D: 1764266718142L
+	}
+	completed: {
+		23BFE9C4343380AB: 1764266718144L
+		3B98D34AC5E8AA4D: 1764266718144L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}

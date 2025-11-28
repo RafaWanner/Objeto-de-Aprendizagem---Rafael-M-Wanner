@@ -1,0 +1,101 @@
+{
+	autofocus_id: "2BDF45A955610CDD"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "maquinas_multibloco"
+	group: "5A7CAD0C4B5113E2"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "mekanism:basic_control_circuit"
+	id: "66DEC61EB12E988C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to advanced engineering. Unlike standard machines that are crafted in a workbench and placed as a single block, Multiblock Machines are massive structures built directly in the world."
+				"{@pagebreak}"
+				"Think of them as buildings rather than appliances. You don't just \"place\" a Fission Reactor; you construct it, block by block, to create a hollow structure that functions as one unified entity."
+				"{@pagebreak}"
+				"Click the checkmark to confirm you understand the scale of what's coming."
+			]
+			icon: "mekanism:configurator"
+			id: "2BDF45A955610CDD"
+			rewards: [{
+				id: "5AEB97A17E387DEF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "More than just a single block."
+			tasks: [{
+				id: "621421C1010BF696"
+				type: "checkmark"
+			}]
+			title: "The Multiblock Concept"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2BDF45A955610CDD"]
+			description: [
+				"Every Multiblock Machine in Mekanism follows a strict architectural code. To successfully form a machine, you generally need:"
+				""
+				"1. Frame \\& Casing: The edges and walls must be built using specific casing blocks."
+				""
+				"2. Ports \\& Valves: You need special blocks to input/output energy, fluids, and items."
+				""
+				"3. Structural Glass: Often used on the faces of the machine to let you see inside (and look cool)."
+				"{@pagebreak}"
+				"The Golden Rule: The structure must usually be a hollow cuboid (no blocks inside)."
+				"{@pagebreak}"
+				"When you place the final block correctly, the machine will sparkle with red particles and the texture will change. That is your sign of success."
+			]
+			icon: "mekanism:boiler_casing"
+			id: "6240AD12D17257B7"
+			rewards: [{
+				id: "4A861C01FEB99057"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Casings, Ports, and the Rules of Construction."
+			tasks: [{
+				id: "2B2503050411FFB3"
+				type: "checkmark"
+			}]
+			title: "Anatomy of a Giant"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6240AD12D17257B7"]
+			description: [
+				"Why go through the trouble of building a 10x10x10 structure? The answer is Scalability."
+				"{@pagebreak}"
+				"Standard machines have fixed limits. Multiblocks allow you to define the limit."
+				""
+				"- Need more steam? Build a bigger Boiler."
+				""
+				"- Need to store millions of liters of lithium? Build a massive Dynamic Tank."
+				"{@pagebreak}"
+				"Furthermore, these machines are designed to work together. A Fission Reactor feeds a Boiler, which feeds a Turbine. You are not just building machines; you are building an integrated industrial facility."
+			]
+			icon: "mekanismgenerators:fission_reactor_port"
+			id: "5C4287FE4CC5D396"
+			rewards: [{
+				id: "206397C1F5635128"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Scalability, Efficiency, and Massive Storage."
+			tasks: [{
+				id: "3D4972C801717331"
+				type: "checkmark"
+			}]
+			title: "Why Build Big?"
+			x: -5.5d
+			y: 3.0d
+		}
+	]
+	title: "Multiblock Machines"
+}

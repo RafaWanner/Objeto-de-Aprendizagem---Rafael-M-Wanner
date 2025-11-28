@@ -1,0 +1,94 @@
+{
+	autofocus_id: "6FAFE18C3D3338AD"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "what_is_it"
+	group: "4511621998490A62"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "mekanism:advanced_control_circuit"
+	id: "48D0CC8CC764366C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["66DEC61EB12E988C"]
+			description: [
+				"The Thermal Evaporation Plant represents a shift in technology. While your previous machines operated on electrical energy (FE), this structure operates on the principles of Thermodynamics."
+				"{@pagebreak}"
+				"It is a massive container designed to hold fluids and subject them to intense temperatures."
+				"{@pagebreak}"
+				"Conceptually, it functions like a giant distiller: it takes a fluid, boils off the excess water, and leaves behind a more concentrated and valuable substance."
+			]
+			icon: "mekanism:thermal_evaporation_controller"
+			id: "6FAFE18C3D3338AD"
+			rewards: [{
+				id: "46F78EF1E0F549F5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "A multiblock structure powered by heat."
+			tasks: [{
+				id: "04CC9B04B7642406"
+				type: "checkmark"
+			}]
+			title: "Thermodynamic Processing"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FAFE18C3D3338AD"]
+			description: [
+				"Why do you need this machine? It unlocks two critical resources that cannot be mined from the ground:"
+				""
+				"1. Brine: A highly concentrated salt solution. It is essential for chemical injection (Ore Processing Tier 3) and creating Sodium."
+				""
+				"2. Liquid Lithium: The holy grail of energy production. It is the raw material required to create Tritium fuel for fusion reactors and components for induction energy storage."
+			]
+			icon: "mekanismgenerators:advanced_solar_generator"
+			id: "37BF119BED0321DA"
+			rewards: [{
+				id: "57D62DABE67F72A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Brine and Liquid Lithium."
+			tasks: [{
+				id: "4E2169850674C5BA"
+				type: "checkmark"
+			}]
+			title: "Concentrated Resources"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["37BF119BED0321DA"]
+			description: [
+				"Before you start gathering materials, understand the operational requirements of this plant."
+				"{@pagebreak}"
+				"Unlike a Crusher that can work in a dark basement, the Thermal Evaporation Plant is designed to utilize solar energy. It requires exposure to the sky to function passively."
+				"{@pagebreak}"
+				"Its efficiency is tied exclusively to its internal temperature."
+				"- Cold Plant = No processing."
+				"- Hot Plant = Fast processing."
+			]
+			icon: "mekanism:brine_bucket"
+			id: "605A89BCFF70B46B"
+			rewards: [{
+				id: "6B6B21AAFBE13D65"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Solar dependency and heat management."
+			tasks: [{
+				id: "534F27E04DACB4FB"
+				type: "checkmark"
+			}]
+			title: "Environmental Needs"
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+	title: "What is it"
+}

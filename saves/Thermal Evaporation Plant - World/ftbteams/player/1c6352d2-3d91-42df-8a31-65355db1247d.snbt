@@ -1,0 +1,17 @@
+{
+	id: "1c6352d2-3d91-42df-8a31-65355db1247d"
+	type: "player"
+	player_name: "Viciado_em_Xbox"
+	ranks: {
+		1c6352d2-3d91-42df-8a31-65355db1247d: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Viciado_em_Xbox"
+		"ftbteams:description": ""
+		"ftbteams:color": "#5963FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

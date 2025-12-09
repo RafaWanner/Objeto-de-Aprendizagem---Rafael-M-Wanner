@@ -37,6 +37,3 @@ Agora vamos substituir os arquivos de configuração pelos arquivos do objeto de
 2. Certifique-se de estar usando o perfil do **Forge**.
 3. Clique em **Jogar**.
 4. No menu "Um Jogador" (Singleplayer), localize e entre no mundo **"Thermal Evaporation Plant"**.
-
----
-**Bom estudo!**

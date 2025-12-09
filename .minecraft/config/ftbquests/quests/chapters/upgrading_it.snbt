@@ -1,0 +1,113 @@
+{
+	autofocus_id: "79C5D6F74294D76F"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "upgrading_it"
+	group: "4511621998490A62"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "mekanism:ultimate_control_circuit"
+	id: "2DC674606A60DCC6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1A1AE31469F58B6D"]
+			description: [
+				"Your current structure is likely the minimum size (3 blocks high). While functional, it is slow."
+				"{@pagebreak}"
+				"To upgrade the plant, you don't need to build a new one—just make it taller."
+				"{@pagebreak}"
+				"1. Remove the solar roof."
+				""
+				"2. Add more layers of walls (Evaporation Blocks or Structural Glass)."
+				""
+				"3. Re-place the solar roof on the new top."
+				"{@pagebreak}"
+				"The maximum height is 18 blocks."
+				"{@pagebreak}"
+				"Benefit: A taller tower has a larger surface area for solar absorption, generating more passive heat and increasing fluid storage capacity."
+			]
+			icon: "mekanism:structural_glass"
+			id: "79C5D6F74294D76F"
+			rewards: [{
+				id: "5A0BCED9209BC5B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Going from minimum to maximum."
+			tasks: [{
+				id: "4B7F4EB9939062B5"
+				type: "checkmark"
+			}]
+			title: "Vertical Expansion"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79C5D6F74294D76F"]
+			description: [
+				"Solar power has a weakness: it stops at night and struggles in rainy weather. To achieve industrial speed, you need Active Heating."
+				"{@pagebreak}"
+				"You can pump raw heat into the system using a \"Resistive Heater\"."
+				"{@pagebreak}"
+				"How to set it up:"
+				""
+				"1. Place a Resistive Heater nearby and power it with energy."
+				""
+				"2. Connect it to one of your tower's Valves using \"Thermodynamic Conductors\" (Heat Pipes)."
+				""
+				"3. Set the heater's energy usage (e.g., 1000 FE/t)."
+				"{@pagebreak}"
+				"This forces the temperature up, regardless of the time of day."
+			]
+			icon: "mekanism:resistive_heater"
+			id: "45B028CEA8255A9D"
+			rewards: [{
+				id: "7978BEF1C6549038"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Using external heat for 24/7 operation."
+			tasks: [{
+				id: "56DF548D582DF250"
+				type: "checkmark"
+			}]
+			title: "Breaking the Solar Limit"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45B028CEA8255A9D"]
+			description: [
+				"Standard Mekanism machines use \"Speed Upgrades\" cards. The Thermal Evaporation Plant does NOT."
+				"{@pagebreak}"
+				"For this machine, Heat IS Speed."
+				""
+				"- Higher Temperature = Faster evaporation rate (mB/t)."
+				""
+				"- Max Temperature = Max production speed."
+				"{@pagebreak}"
+				"Be careful: If your production speed exceeds your water input rate, the machine will run dry and lose efficiency. Balance your heat input with your water pumps."
+			]
+			icon: "mekanism:basic_thermodynamic_conductor"
+			id: "77B19077CB725B95"
+			rewards: [{
+				id: "1D73C8BDB4951391"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Understanding production speed."
+			tasks: [{
+				id: "429F42EEA9865DB6"
+				title: "The Heat Curve"
+				type: "checkmark"
+			}]
+			title: "The Heat Curve"
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+	title: "Upgrading it"
+}

@@ -80,7 +80,7 @@ O aprendizado será avaliado automaticamente pelo sistema do mod:
 
 ## Mapa Conceitual
 
-![Mapa_Conceitual_Mekanism_-_Rafael_MW](https://github.com/user-attachments/assets/5fcaed51-f3be-4311-8c31-df826b6d2309)
+![Mapa_Conceitual_Mekanism_-_Rafael_MW](https://github.com/user-attachments/assets/73406cd0-b51f-4cd0-b97b-2a9284bdd808)
 
 ---
 

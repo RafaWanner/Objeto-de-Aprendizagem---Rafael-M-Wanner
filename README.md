@@ -86,7 +86,7 @@ O aprendizado será avaliado automaticamente pelo sistema do mod:
 
 ## Modelo Instrucional
 
-![Modelo_Instrucional_Mekanism_-_Rafael_MW](https://github.com/user-attachments/assets/0ae6bc14-d3ba-4643-88ef-41529a6eebc1)
+![Modelo_Instrucional_Mekanism_-_Rafael_MW](https://github.com/user-attachments/assets/58cd992f-988b-4a85-8c14-093a46714e44)
 
 ---
 

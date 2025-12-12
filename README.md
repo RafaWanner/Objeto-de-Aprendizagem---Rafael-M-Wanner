@@ -98,13 +98,14 @@ O aprendizado será avaliado automaticamente pelo sistema do mod:
 
 ## Mapa Conceitual
 
-![Mapa_Conceitual_Mekanism_-_Rafael_MW](https://github.com/user-attachments/assets/73406cd0-b51f-4cd0-b97b-2a9284bdd808)
+![Mapa_Conceitual_Mekanism_-_Rafael_MW](https://github.com/user-attachments/assets/f6a0aaa0-bfac-4445-bc35-3f920af52c7f)
+ents/assets/73406cd0-b51f-4cd0-b97b-2a9284bdd808)
 
 ---
 
 ## Modelo Instrucional
 
-![Modelo_Instrucional_Mekanism_-_Rafael_MW](https://github.com/user-attachments/assets/58cd992f-988b-4a85-8c14-093a46714e44)
+![Modelo_Instrucional_Mekanism_-_Rafael_MW](https://github.com/user-attachments/assets/13e08670-c6d7-41cf-9311-ad505243b31d)
 
 ---
 

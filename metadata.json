@@ -1,0 +1,98 @@
+{
+  "lom": {
+    "general": {
+      "title": {
+        "pt": "Dominando a Thermal Evaporation Plant",
+        "en": "Mastering the Thermal Evaporation Plant"
+      },
+      "language": "pt-BR",
+      "description": {
+        "string": "Objeto de aprendizagem gamificado no formato de Mod para Minecraft. Ensina o jogador a projetar, construir e operar uma Thermal Evaporation Plant (Planta de Evaporação Térmica) utilizando o mod Mekanism, abordando conceitos de máquinas multibloco, termodinâmica básica e automação."
+      },
+      "keywords": [
+        "Minecraft",
+        "Mekanism",
+        "Thermal Evaporation Plant",
+        "Máquinas Multibloco",
+        "Automação",
+        "Engenharia",
+        "Gamificação"
+      ],
+      "structure": "atomic",
+      "aggregationLevel": 2
+    },
+    "lifecycle": {
+      "version": "1.0",
+      "status": "final",
+      "contribute": [
+        {
+          "role": "author",
+          "entity": "Rafael Machado Wanner",
+          "date": "2024-12-12"
+        }
+      ]
+    },
+    "technical": {
+      "format": [
+        "application/java-archive",
+        "text/markdown",
+        "application/pdf"
+      ],
+      "size": "Variable",
+      "location": "https://github.com/seu-usuario/seu-repositorio",
+      "requirements": {
+        "type": "software",
+        "name": "Minecraft Java Edition",
+        "version": "1.20.1",
+        "framework": "Minecraft Forge 47.4.10"
+      },
+      "installationRemarks": "Requer instalação prévia do Minecraft Forge e cópia da pasta .minecraft fornecida."
+    },
+    "educational": {
+      "interactivityType": "active",
+      "learningResourceType": [
+        "simulation",
+        "guide",
+        "game"
+      ],
+      "interactivityLevel": "high",
+      "semanticDensity": "medium",
+      "intendedEndUserRole": [
+        "learner",
+        "student"
+      ],
+      "context": [
+        "school",
+        "higher education",
+        "vocational training"
+      ],
+      "typicalAgeRange": "12-18",
+      "difficulty": "medium",
+      "description": "O aluno deve ler o guia in-game, coletar recursos, construir a estrutura multibloco e verificar o funcionamento produzindo Brine."
+    },
+    "rights": {
+      "cost": "no",
+      "copyrightAndOtherRestrictions": "yes",
+      "description": "Distribuído sob licença de uso educacional/livre (Open Source), respeitando as dependências do Minecraft EULA e Mekanism Mod."
+    },
+    "classification": {
+      "purpose": "educational objective",
+      "taxonPath": [
+        {
+          "source": "LOMv1.0",
+          "taxon": {
+            "entry": "Technology",
+            "id": "10"
+          }
+        },
+        {
+          "source": "LOMv1.0",
+          "taxon": {
+            "entry": "Engineering",
+            "id": "11"
+          }
+        }
+      ]
+    }
+  }
+}
